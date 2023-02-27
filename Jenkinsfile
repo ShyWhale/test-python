@@ -1,6 +1,8 @@
 
 pipeline {
-  agent any
+  agent {
+    docker {image 'alpine/socat'}
+  }
   stages {
     stage('version') {
       steps {
