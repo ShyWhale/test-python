@@ -1,7 +1,7 @@
 
 pipeline {
   agent {
-    docker {image 'alpine/socat'}
+    docker {image 'python-dev'}
   }
   stages {
     stage('version') {
