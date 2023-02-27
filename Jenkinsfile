@@ -1,7 +1,7 @@
 
 pipeline {
   agent {
-    docker {image 'abbe8eec99f4'}
+    docker {image 'devopsjourney1/myjenkinsagents:python'}
   }
   stages {
     stage('version') {
