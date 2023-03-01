@@ -1,7 +1,7 @@
 
 pipeline {
   agent{
-    docker {image 'shywhale/python-dev:v0.0.4'}
+    docker {image 'shywhale/python-dev:latest'}
   }
   stages {
     stage('version') {
