@@ -1,7 +1,7 @@
 
 pipeline {
   agent{
-    docker {image 'continuumio/conda-ci-linux-64-python3.8:latest}
+    docker {image 'continuumio/conda-ci-linux-64-python3.8:latest'}
   }
   stages {
     stage('version') {
